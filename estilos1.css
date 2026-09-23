@@ -18,6 +18,15 @@ p{
     color: #00616d;
     text-align: center;
 }
+
+a{
+    display: flex;
+    flex-direction: column;
+    font-family:Arial;
+    font-size: 40px;
+    color: rgb(228,230,168);
+    text-align:center;
+}
 @keyframes cambioFuente{
     0% {font-family:Arial}
     50%{font-family:Times}

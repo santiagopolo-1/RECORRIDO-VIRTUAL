@@ -19,22 +19,9 @@ p{
     text-align: center;
 }
 
-.audio {
-    display: none;
-}
-
 .foto {
   width: 50%;
   height: 50%;
-}
-
-p1{
-    display: flex;
-    flex-direction: column;
-    font-family:Arial;
-    font-size: 30px;
-    color: #000000;
-    text-align:center;
 }
 
 a{
@@ -50,21 +37,4 @@ a{
     0% {font-family:Arial}
     50%{font-family:Times}
     100%{font-family:sans-serif}
-}
-
-@media (max-width: 1000px) {
-    #img1{
-        height: 500vw;
-        width: 392vw;
-    }
-    p{
-        height:50vw;
-        width:400vw;
-    }
-    p1{
-        height:auto;
-    }
-    h1{
-        font-size-adjust:25vw;
-    }
 }
