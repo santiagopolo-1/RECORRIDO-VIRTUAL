@@ -19,6 +19,10 @@ p{
     text-align: center;
 }
 
+.audio {
+    display: none;
+}
+
 .foto {
   width: 50%;
   height: 50%;
@@ -41,6 +45,7 @@ a{
     color: rgb(228,230,168);
     text-align:center;
 }
+
 @keyframes cambioFuente{
     0% {font-family:Arial}
     50%{font-family:Times}
@@ -58,7 +63,6 @@ a{
     }
     p1{
         height:auto;
-        weight:auto;
     }
     h1{
         font-size-adjust:25vw;

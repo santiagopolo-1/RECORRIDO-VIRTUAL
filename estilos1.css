@@ -1,0 +1,25 @@
+body {
+    background-color:rgb(156, 216, 205)
+}
+
+h1 {
+    font-family: Helvetica;
+    color: #00616d;
+    font-size: 100px;
+    animation-name: cambioFuente;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+p{
+    font-family:Arial;
+    font-size: 30px;
+    color: #00616d;
+    text-align: center;
+}
+@keyframes cambioFuente{
+    0% {font-family:Arial}
+    50%{font-family:Times}
+    100%{font-family:sans-serif}
+}
